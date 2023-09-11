@@ -1,0 +1,771 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/1.png');
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 7%;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border: 2px solid skyblue;
+    border-radius: 200px;
+    margin-left: 2px;
+    padding: 5px;
+    cursor: pointer;
+
+
+}
+
+.nav-links li {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.register-btn {
+    background: #fff;
+    color: #000;
+    padding: 8px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.container {
+    padding: 0 7% 120px;
+}
+
+
+.header h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 222px;
+}
+
+.serch-bar {
+    background-color: #fff;
+    width: 90%;
+    margin: 30px auto;
+    padding: 6px 10px 6px 30px;
+    border-radius: 50px;
+}
+
+
+.serch-bar from {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.serch-bar from input {
+    display: block;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.serch-bar from button {
+    background: rgb(238, 53, 53);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.serch-bar from button img {
+    width: 18px;
+    margin-top: 5px;
+}
+
+.location-input {
+    flex: 1;
+}
+
+.serch-bar from label {
+
+    font-weight: 600;
+}
+
+.sub-title {
+    margin: 50px 0 20px;
+    font-size: 2.2vw;
+    font-weight: 500;
+    color: #333;
+}
+
+.Exclusives {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+}
+
+.Exclusives div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Exclusives div {
+    position: relative;
+}
+
+.Exclusives div span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
+
+.tranding {
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-bottom: 100px;
+
+}
+
+.tranding div img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+
+
+}
+
+.tranding h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.cta {
+    margin: 80px 0;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    padding: 5%;
+    color: #fff;
+}
+
+.cta h3 {
+    font-size: 3vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+
+.cta p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.cta-btn {
+    background: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.stories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+
+.stories div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.stories div {
+    position: relative;
+    text-align: center;
+}
+
+.stories p {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 23px;
+}
+
+.Start-btn {
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+
+.about-msg {
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 17px;
+}
+
+.about-msg h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.footer {
+    margin: 80px 0 10px;
+    text-align: center;
+}
+
+.footer hr {
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+
+.footer p {
+    padding-bottom: 15px;
+}
+
+.active {
+    position: relative;
+}
+
+.active::after {
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border: 2px;
+}
+
+nav .fa-server {
+    display: none;
+}
+
+/*------------media query-------------*/
+@media only screen and (max-width:700px) {
+
+    .logo {
+        position: fixed;
+        top: 4%;
+        left: 7%;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        display: inline-block;
+        width: 100%;
+        padding: 100px 7% 0;
+        background: #000;
+        text-align: right;
+        max-height: 100px;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
+    nav .nav-links li {
+        margin: 17px 0;
+        display: block;
+
+    }
+
+    .register-btn {
+        margin: 15px 0 30px;
+        display: inline-block;
+
+
+    }
+
+    nav .fa-server {
+        display: block;
+        position: fixed;
+        color: #fff;
+        top: 4%;
+        right: 7%;
+        font-size: 28px;
+    }
+
+    .active::after {
+
+        left: -40px;
+        transform: translateX(0, 50%);
+        bottom: 50%;
+
+
+    }
+
+    .hidemenu {
+        max-height: 300px;
+    }
+
+    .header h1 {
+        padding-top: 200px;
+        font-size: 7vw;
+    }
+
+    .serch-bar {
+        width: 90%;
+        max-width: 30px auto;
+        padding: 20px 10px 30px;
+        border-radius: 5px;
+        position: relative;
+    }
+
+    .serch-bar from {
+        display: block;
+    }
+
+    .serch-bar from input {
+        border-radius: 1px solid #ddd;
+        will-change: 100%;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        padding-bottom: 10px;
+    }
+    .serch-bar from button{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%,50%);
+    }
+    .sub-title{
+        font-size: 6vw;
+    }
+    .cta{
+        padding: 50% 5%;
+    }
+    .cta h3{
+        font-size: 7vw;
+        line-height: 8vw;
+    }
+    .cta p{
+        font-size: 14px;
+    }
+    .cta-btn{
+        padding: 6px 14px;
+        border-radius: 4px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .storiesp{
+        font-size: 22px;
+    }
+    .about-msg{
+        font-size: 15px;
+    }
+
+
+}
+/*----------------------------------------listening page------------------*/
+
+.navbar-white{
+    background-color: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05) ;
+}
+.navbar-white .nav-links li a{
+    color: #000;
+
+}
+.navbar-white .register-btn{
+    background-color: #ff5361;
+    color: #fff;
+}
+nav.navbar-white .fa-server{
+    color: #000;
+}
+.navbar-white .active::after{
+    background: #ff5361;
+}
+.list-container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-col{
+    flex-basis:70%;
+}
+.right-col{
+    flex-basis: 30%;
+}
+.left-col h1{
+    color:#333 ;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.house{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    border-top: 1px solid #ccc;
+}
+.house-img{
+    flex-basis: 40%;
+}
+.house-info{
+    flex-basis: 60%;
+    color: #555;
+}
+.house-img img{
+    width: 90%;
+    border-radius: 33px;
+}
+.house-info h3{
+    font-weight: 600;
+    color: #333;
+    font-size: 22px;
+    margin: 4px 0;
+
+}
+.house-price{
+    text-align: center;
+}
+.house-price h4{
+    font-size: 20px;
+}
+.house-price h4 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+.sidebar{
+    border: 1px solid #999;
+    padding: 20px 30px;
+    margin: 30px;
+}
+.sidebar h4{
+    font-weight: 500;
+    margin: 20px 0 10px;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    color: #555;
+    margin-bottom: 10px;
+}
+.filter p{
+flex: 1;
+}
+.filter input{
+    margin-right: 15px;
+    cursor: pointer;
+}
+.sidebar-link{
+    text-align: right;
+    margin: 20px 0;
+}
+.sidebar-link a{
+    text-decoration: none;
+}
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+}
+.pagination img{
+    width: 15px;
+    margin: 10px 20px;
+}
+.right-arrow{
+    transform: rotate(180 deg);
+}
+.pagination span{
+    margin: 10px 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.pagination .current{
+    background-color: #000;
+    color: white;
+}
+
+
+/*----------try-----------------*/
+.house-detail{
+    padding: 0 12%;
+}
+.house-title{
+    margin-top: 50px;
+}
+.house-title h1{
+    font-weight: 500;
+}
+.house-title .row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0;
+}
+.house-title span{
+    margin: 0 20px;
+}
+.house-title i{
+    color: #ff5361;
+    font-size: 14px;
+}
+.gallery{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas: 'first first . .''first first . . ';
+    margin: 20px 0;
+}
+.gallery div img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+.gallery-img-1{
+    grid-area: first;
+}
+.small-detail h2{
+    font-weight: 500;
+}
+.small-detail h4{
+    text-align: right;
+    font-size: 22px;
+}
+.line{
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 100%;
+    max-width: 800px;
+    margin:20px 0 50px ;
+}
+.cheak-form{
+    margin: 30px 0;
+    background: #fff;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 50px;
+}
+.cheak-form label{
+    display: block;
+
+}
+.cheak-form div{
+    padding: 0px;
+
+}
+.cheak-form input{
+    background: transparent;
+    border: 0;
+    outline: none;
+}
+.cheak-form button{
+    background: #ff5361;
+    border: 0;
+    outline: none;
+    color: #fff;
+    padding: 18px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.guest-field{
+    flex: 1;
+}
+.detail-list{
+    list-style: none;
+    margin: 50px 0;
+}
+.detail-list li{
+    list-style: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #555;
+}
+.detail-list li span{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+}
+.detail-list li i{
+    position: absolute;
+    left: 196px;
+}
+.home-desc{
+    max-width: 700px;
+    margin-bottom: 50px;
+}
+.map{
+    margin: 50px 0;
+}
+.map iframe{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.map h3{
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.map b{
+    display: block;
+    margin-bottom: 16px;
+}
+.host{
+    display: flex;
+    align-items: center;
+}
+.host img {
+    width: 80px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.host h2{
+    margin-bottom:10px ;
+    font-weight: 500;
+}
+.host i{
+    color: #ff5361;
+}
+.contact-host{
+    display: inline-block;
+    margin: 40px 0 40px 120px;
+    text-decoration: none;
+    padding: 15px 50px;
+    border: 1px solid #ff5361;
+    color: #555;
+    border-radius: 8px;
+}
+/*---------small screen-------*/
+@media only screen and (max-width:800px){
+    .list-container{
+        margin-top: 150px;
+
+    }
+    .left-col , .right-col , .house-img ,.house-info{
+        flex-basis: 100%;
+    }
+    .left-col h1{
+        font-size: 22px;
+    }
+    .house-info h3{
+        font-size: 18px;
+
+    }
+    .checked{
+        font-size: 10px;
+    }
+    .pagination span{
+        margin: 10px 2px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 12px;
+    }
+    .house-detail{
+        margin-top: 10px;
+    }
+    .row p{
+        margin-top: 10px;
+    }
+    .gallery{
+        grid-template-areas: 'first first' '. .' '. .';
+    }
+    .small-detail h2{
+        font-size: 20px;
+        margin-top: 24px;
+    }
+    .small-detail h4{
+        text-align: left;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .cheak-form{
+        padding: 10px 30px;
+    }
+    .cheak-form div{
+        padding: 20px 0;
+        width: 100%;
+    }
+    .cheak-form input{
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        padding-bottom: 5px;
+
+    }
+    .cheak-form button{
+        font-size: 14px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+    }
+    .host{
+        display: block;
+        line-height: 28px;
+    }
+    .contact-host{
+        margin: 40px 0;
+    }
+    .detail-list li i{
+        left:50px  
+      }
+}
+
+.d-block{
+    width: 1400px;
+    height: 400px;
+}
